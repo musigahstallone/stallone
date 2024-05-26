@@ -1,25 +1,26 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
-  author: 'Tails Azimuth',
-  headerTitle: 'TailwindBlog',
-  description: 'A blog created with Next.js and Tailwind.css',
+  title: 'Love is a Verb',
+  author: 'Stallone Odhiambo',
+  headerTitle: 'Church Blog',
+  description:
+    'This Blog explores the intersection of faith and personal growth, providing insights and resources to inspire and equip believers to live out their faith in everyday life.',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  siteUrl: 'https://love-is-a-verb.vercel.app',
+  siteRepo: 'https://github.com/timlrx/love-is-a-verb',
   siteLogo: '/static/images/logo.png',
   socialBanner: '/static/images/twitter-card.png',
-  mastodon: 'https://mastodon.social/@mastodonuser',
-  email: 'address@yoursite.com',
-  github: 'https://github.com',
-  x: 'https://twitter.com/x',
+  // mastodon: 'https://mastodon.social/@mastodonuser',
+  // email: 'musigahstallone@gmail.com',
+  // github: 'https://github.com/musigahstallone',
+  x: 'https://x.com/musigahstallone',
   // twitter: 'https://twitter.com/Twitter',
   facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
-  threads: 'https://www.threads.net',
-  instagram: 'https://www.instagram.com',
+  // youtube: 'https://youtube.com',
+  // linkedin: 'https://www.linkedin.com',
+  threads: 'https://www.threads.net/@am_stallone',
+  instagram: 'https://www.instagram.com/am_stallone',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
@@ -33,7 +34,7 @@ const siteMetadata = {
       // Remember to add 'us.umami.is' in `next.config.js` as a permitted domain for the CSP
     },
     // plausibleAnalytics: {
-    //   plausibleDataDomain: '', // e.g. tailwind-nextjs-starter-blog.vercel.app
+    //   plausibleDataDomain: '', // e.g. love-is-a-verb.vercel.app
     // },
     // simpleAnalytics: {},
     // posthogAnalytics: {
